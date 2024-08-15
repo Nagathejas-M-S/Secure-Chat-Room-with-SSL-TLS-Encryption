@@ -10,6 +10,7 @@ Alias System: Users can choose an alias when they join the chat, which is displa
 
 ## Project Structure
 client.py: The client-side script that connects to the server, sends and receives messages over a secure connection.
+
 server.py: The server-side script that accepts client connections, broadcasts messages to all connected clients, and handles client disconnections.
 cert.pem & key.pem: SSL/TLS certificate and private key files used by the server to encrypt communications.
 
@@ -29,7 +30,6 @@ python3 server.py
 The server will start listening for incoming client connections.
 Running the Client  
 On a different terminal or machine, run the client script:  
-
 python3 client.py  
 Enter an alias when prompted. You can then start sending and receiving messages.
 How It Works
